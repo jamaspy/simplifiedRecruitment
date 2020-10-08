@@ -1,6 +1,6 @@
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
   siteMetadata: {
@@ -27,18 +27,18 @@ module.exports = {
       options: {
         root: './src',
         aliases: {
-          'components': './components',
-          'containers': './containers',
-          'images': './images',
-          'state': './state',
-          'styles': './styles',
-          'utils': './utils',
+          components: './components',
+          containers: './containers',
+          images: './images',
+          state: './state',
+          styles: './styles',
+          utils: './utils',
           static: {
             root: './public',
-            alias: './static'
-          }
-        }
-      }
+            alias: './static',
+          },
+        },
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -62,7 +62,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-redux`,
       options: {
-        pathToCreateStoreModule: "./src/state/store",
+        pathToCreateStoreModule: './src/state/store',
         serialize: {
           space: 0,
           isJSON: true,
@@ -73,10 +73,9 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken:process.env.CONTENTFUL_ACCESS_TOKEN,
-        environment: process.env.CONTENTFUL_ENV,
-      }
+        spaceId: process.env.GATSBY_CONTENTFUL_SPACE_ID,
+        accessToken: process.env.GATSBY_CONTENTFUL_ACCESS_TOKEN,
+      },
     },
   ],
-}
+};
