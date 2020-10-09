@@ -15,10 +15,16 @@ const About = () => (
         <Animated>{title}</Animated>
       </Typography>
     </Fade>
-    <Typography variant='h3' color='textPrimary'>
+    <Typography
+      variant='h3'
+      color='textPrimary'
+      style={{ marginTop: 10, textAlign: 'justify' }}>
       {subtitle}
     </Typography>
-    <Typography variant='h3' color='textPrimary'>
+    <Typography
+      variant='h3'
+      color='textPrimary'
+      style={{ marginTop: 10, textAlign: 'justify' }}>
       {second_subtitle}
     </Typography>
     <LinkList links={links} />

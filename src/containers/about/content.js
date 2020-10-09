@@ -3,23 +3,10 @@ import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 const content = {
   title: 'About.',
   subtitle:
-    'Laboris veniam adipisicing sit ipsum et. Aliqua veniam ut ut irure. Do irure aliquip aliquip ea reprehenderit irure reprehenderit ea. Consequat velit aliquip esse nisi mollit veniam cupidatat amet ad anim ea.',
+    "Simplified Recruitment partners with a select number of Australia's top tier clients to provide, well...a simple service! We believe that the recruitment process has a few key steps which, over many years, we have perfected to offer a hassle free talent service.",
   second_subtitle:
-    'Voluptate et magna incididunt et deserunt quis non adipisicing occaecat laboris officia sit Lorem ea. Officia qui anim voluptate officia laboris exercitation occaecat consequat irure aute minim qui. Anim incididunt nisi duis do occaecat tempor culpa cillum nulla nisi elit. Incididunt eu dolor proident ex aute mollit proident.',
-  links: [
-    {
-      to: 'https://github.com/chronisp',
-      text: 'Linkedin',
-      Icon: FaLinkedin,
-      newTab: true,
-    },
-    {
-      to: 'https://github.com/chronisp/gatsby-starter',
-      text: 'Twitter',
-      Icon: FaTwitter,
-      newTab: true,
-    },
-  ],
+    'The need for diverse, top 1% talent has never been more essential for businesses during these uncertain times. Simplified Recruitment has fostered close, transparent and genuine relationships with the best of the best across development, testing and project solution. If you are looking for a simplified talent partner, get in touch today.',
+  links: [],
 };
 
 export default content;

@@ -1,7 +1,7 @@
 const content = {
   tagline: 'Finally, recruitment made easy',
   title: 'Simplified.',
-  subtitle: 'Project Services, Development & Testing',
+  subtitle: 'Dev, Testing & Project Services',
 };
 
 export default content;
