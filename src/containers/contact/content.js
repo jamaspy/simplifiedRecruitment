@@ -1,8 +1,6 @@
 import {
   FaEnvelope,
-  FaLinkedin,
   FaLinkedinIn,
-  FaTwitter,
 } from 'react-icons/fa';
 
 const content = {

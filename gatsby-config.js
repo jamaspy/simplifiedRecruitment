@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter`,
-    description: `Gatsby Starter`,
-    author: `Polychronis Papadakis`,
+    title: `Simplified.`,
+    description: `Recruitment, Made Simple`,
+    author: `Rob Jones`,
   },
   plugins: [
     `gatsby-plugin-flow`,
@@ -50,8 +50,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter`,
-        short_name: `Gatsby Starter`,
+        name: `Simplified.`,
+        short_name: `Simplified.`,
         start_url: `/`,
         background_color: `black`,
         theme_color: `black`,
