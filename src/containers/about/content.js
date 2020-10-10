@@ -1,4 +1,3 @@
-import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const content = {
   title: 'About.',

@@ -11,9 +11,6 @@ const {
   subtitle,
   links,
   second_subtitle,
-  subtitle2,
-  links2,
-  second_subtitle2,
 } = content;
 
 const Contact = () => (
@@ -30,13 +27,6 @@ const Contact = () => (
       {second_subtitle}
     </Typography>
     <LinkList links={links} />
-    <Typography variant='h3' color='textPrimary' style={{ marginTop: 20 }}>
-      {subtitle2}
-    </Typography>
-    <Typography variant='h6' color='textPrimary'>
-      {second_subtitle2}
-    </Typography>
-    <LinkList links={links2} />
   </>
 );
 
