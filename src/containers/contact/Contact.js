@@ -8,11 +8,14 @@ import content from './content';
 
 const {
   title,
-  subtitle,
-  links,
-  second_subtitle,
+  subtitle1,
+  links1,
+  second_subtitle1,
+  subtitle2,
+  links2,
+  second_subtitle2,
 } = content;
-
+console.log(content);
 const Contact = () => (
   <>
     <Fade in timeout={1000}>
@@ -21,12 +24,19 @@ const Contact = () => (
       </Typography>
     </Fade>
     <Typography variant='h3' color='textPrimary' style={{ marginTop: 20 }}>
-      {subtitle}
+      {subtitle1}
     </Typography>
     <Typography variant='h6' color='textPrimary'>
-      {second_subtitle}
+      {second_subtitle1}
     </Typography>
-    <LinkList links={links} />
+    <LinkList links={links1} />
+    <Typography variant='h3' color='textPrimary' style={{ marginTop: 20 }}>
+      {subtitle2}
+    </Typography>
+    <Typography variant='h6' color='textPrimary'>
+      {second_subtitle2}
+    </Typography>
+    <LinkList links={links2} />
   </>
 );
 
