@@ -22,7 +22,7 @@ const content = {
   second_subtitle2: '+61 433 608 840',
   links2: [
     {
-      to: 'mailto:nico@simplifiedrec.com',
+      to: 'mailto:nico@simplifiedrec.com.au',
       text: 'Email',
       Icon: FaEnvelope,
       newTab: true,
